@@ -13,6 +13,7 @@ As a single function website, the emphasis is on the main action which is the in
 ## User Stories
 
 - As a user, I want to search for an instagram account's details using just the username so that I can get relevant details such as business email, business website, profile picture, biography and follower count easily. 
+- As a user, I can see the details of the profile in a table format so it makes it easy to read the information. 
 
 ## Features
 
