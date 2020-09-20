@@ -1,6 +1,6 @@
 # Aim of Project: Instagram Profile Details Checker
 
-[Instagram Profile Checker](https://minirazs.github.io/project2_ai_nutrition/)🤖 is a simple tool for you to find all the relevant profile details of an Instagram account especially useful for marketing and business development purposes.
+[Instagram Profile Checker](https://edmundgjj.github.io/instagramdir/) is a simple tool for you to find all the relevant profile details of an Instagram account especially useful for marketing and business development purposes.
 
 Instead of having to go to the individual Instagram profiles to scan and copy the details, you can simply use the username and get all the relevant information you need about the profile such as contact email, bio and website link.
 
