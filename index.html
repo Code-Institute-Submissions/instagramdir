@@ -1,32 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Instagram Checker</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instagram Checker</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="container mt-3">
-      <h1>Instagram Profile Checker</h1>
+	<div class="container mt-5">
+		<h1 class="pt-3">Instagram Profile Checker</h1>
+		<h4>Easiest way to get the details of an Instagram profile just using the username</h4>
+		<div class="container border mt-5 p-3 rounded">
+			<label for="inputProfile">Input the Instagram Username below:</label>
+			<input id="inputProfile" type="text" class="form-control" aria-describedby="Instagram" placeholder="Enter Here" >
+			<button id="submitInstagram" type="submit" class="btn btn-primary mt-2 mb-2">Submit</button>
+		</div>
 
-    <p><a href="homepage.html">Click here to go to directory</a></p>
-
-    <label for="inputProfile">Instagram Profile</label>
-    <input id="inputProfile" type="text" class="form-control" aria-describedby="Instagram" placeholder="Enter Instagram Profile Handle" value="cupplets">
-
-    <button id="submitInstagram" type="submit" class="btn btn-primary">Submit</button>
-    </div>
-    <div class = "container pt-3">
-      <h3>Details of the Instagram Account:</h3>
-      <p id="biography"></p>
-      <p id="userid"></p>
-      <div id ="userprofile"></div>
-    </div>
+		<div class="container mt-3">
+            <h2 class="mt-5 mb-3"> Profile Detail </h2>
+			<table class="table">
+				<thead>
+					<tr>
+						<th scope="col">Details</th>
+						<th scope="col">Values</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th scope="row">Username</th>
+						<td><p id="userid"></p></td>
+					</tr>
+					<tr>
+						<th scope="row">Profile Image</th>
+						<td><div id="userprofile"></div></td>
+					</tr>
+					<tr>
+						<th scope="row">Follower Number</th>
+						<td><p id="follower_num"></p></td>
+					</tr>
+                    <tr>
+						<th scope="row">Bio</th>
+						<td><p id="biography"></p></td>
+					</tr>
+                    <tr>
+						<th scope="row">Business Email</th>
+						<td><p id="business_email"></p></td>
+					</tr>
+                    <tr>
+						<th scope="row">External Links</th>
+						<td><p id="external_url"></p></td>
+					</tr>
+				</tbody>
+			</table>
+			
+		</div>
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+<script src="script.js"></script>
+
 </html>
